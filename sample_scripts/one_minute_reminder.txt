@@ -1,0 +1,43 @@
+REM Author: Erik Owen
+REM Description: This script sets a cronjob that runs every minute that turns the volume up and says 'Pardon the suggestion, but I sincerely recommend you do not leave your computer unlocked and unattended'
+REM Credits: Hak5 Rubber Ducky
+REM ----------------------------------------------------------------
+DELAY 300
+REM ------------------------ Open Terminal -------------------------
+GUI SPACE
+STRING terminal
+DELAY 300
+ENTER
+DELAY 500
+REM ------------------------ Save any CronJobs -------------------------
+STRING crontab -l > current_cron
+DELAY 250
+ENTER
+DELAY 250
+REM ------------------------ Adding New CronJob -------------------------
+STRING echo "* * * * * osascript -e \"set Volume 5\" && /usr/bin/say -v Daniel \"I sincerely recommend you do not leave your computer unlocked and unattended.\" > /dev/null" >> current_cron
+DELAY 500
+ENTER
+DELAY 250
+REM ------------------------ Saving CronTab -------------------------
+STRING crontab current_cron
+DELAY 250
+ENTER
+DELAY 250
+REM ------------------------ Cleaning Up -------------------------
+STRING rm current_cron
+DELAY 250
+ENTER
+DELAY 300
+ENTER
+REM You may want to run the below command to clear the crontab
+REM
+REM ** WARNING ** 
+REM
+REM It will clear the entire crontab file
+REM ** So, if you have jobs running, you might not want to execute it
+STRING crontab -r
+DELAY 250
+ENTER
+DELAY 250
+COMMAND Q

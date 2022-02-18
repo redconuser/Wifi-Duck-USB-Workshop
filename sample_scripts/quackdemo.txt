@@ -1,0 +1,26 @@
+REM author: rbansal3
+REM R3DC0N 2022: For demonstration purposes only
+REM
+REM Target: “Mac OS X” keyboard injection
+REM
+REM Description:
+REM This script will - 
+REM 1. Open a Terminal window
+REM 2. Set up the speaker volume to 6 (10 is Max)
+REM 3. Go to Youtube.com and start playing a video
+REM
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING Terminal
+DELAY 500
+ENTER
+DELAY 1000
+STRING osascript -e 'set volume 6' 
+ENTER
+DELAY 2000
+ENTER
+STRING open https://www.youtube.com/watch?v=1aUio-hDDpw
+DELAY 1000
+ENTER
+REM ** end of script **

@@ -1,0 +1,16 @@
+REM Written by: CwakrJax
+REM This script will change all mac desktops to a cyberheist infographic.
+
+DEFAULT_DELAY 100
+
+DELAY 300
+
+REM # Open Terminal and download image
+GUI SPACE
+STRING Terminal
+ENTER
+
+DELAY 800
+
+STRING wget https://i.ibb.co/Cz2HSPs/cyberheist-infographic.png -O $HOME/Pictures/redteam_infographic.png; osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$HOME/Pictures/redteam_infographic.png\""; clear
+ENTER
