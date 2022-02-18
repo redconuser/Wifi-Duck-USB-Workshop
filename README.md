@@ -40,7 +40,7 @@ It comes with the plastic casing that can be put together to give a disguised lo
 
 ## Setup
 
-By courtesy of @skennedy6, the Wifi Duck has already been pre-set up for you. You should be able to see a script ([quackdemo.txt](./sample_scripts/quackdemo.txt)) pre-installed for you to test the Wifi Duck.
+The Wifi Duck has already been pre-set up for you. You should be able to see a script ([quackdemo.txt](./sample_scripts/quackdemo.txt)) pre-installed for you to test the Wifi Duck.
 
 For your knowledge, complete instructions on how to set up (also known as re-flash) your Wifi Duck are also available at https://github.com/SpacehuhnTech/WiFiDuck (Look for the link for the tutorial that takes you to a [Youtube video](https://www.youtube.com/watch?v=e3-nsOjclsY))
 
