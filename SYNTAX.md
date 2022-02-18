@@ -2,7 +2,7 @@ Credits: Erik and Anuj
 
 
 ## Disclaimer
-> The below content is a copy of document published by [hak5 documentation](https://docs.hak5.org/hc/en-us/articles/360010555153-Ducky-Script-the-USB-Rubber-Ducky-language).Since Hak5's website is blocked by Intuit's network for security reasons, making a copy here will help the participants.
+> The below content is a copy of document published by [hak5 documentation](https://docs.hak5.org/hc/en-us/articles/360010555153-Ducky-Script-the-USB-Rubber-Ducky-language).Since Hak5's website is blocked by corp network for security reasons, making a copy here will help the participants.
 
 
 # Ducky Script - the USB Rubber Ducky language
