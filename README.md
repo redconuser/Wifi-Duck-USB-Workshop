@@ -125,7 +125,7 @@ Your best choice might be taking your laptop with you, wherever you go in the pu
 
 Still got some coffee left in that cup?
 
-We invite you to skim over some of the [sample scripts]((./sample_scripts) we wrote for you. Try a couple! Have fun!
+We invite you to skim over some of the [sample scripts](./sample_scripts) we wrote for you. Try a couple! Have fun!
 
 As always, your R3DC0N team is here to help answer any questions. please feel free to reach out to us via intuit-r3dc0n channel on Slack or directly contact us.
 
