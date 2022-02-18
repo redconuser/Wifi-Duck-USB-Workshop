@@ -19,10 +19,7 @@ If you are unsure what an acceptable exploit is, please talk to an administrator
 1. Description
 2. Setup
 3. [Syntax: Learning Ducky script](/SYNTAX.md)
-4. Creating the Exploit Payload
-5. Enabling the Exploit Payload onto the Wifi Duck USB
-6. Running the Exploit Payload
-
+4. Creating and Running the Exploit Payload
 
 
 ## Description
@@ -60,18 +57,7 @@ Ducky Script syntax is simple. Each command resides on a new line and may have o
 
 
 
-** Running the Exploit Payload
-
-Usage
-Plugin your WiFi Duck
-Connect to the WiFi network wifiduck with the password wifiduck
-Open a browser and visit 192.168.4.1
-Write, save and run your first script
-[Recommended] Open Settings (top right corner) and update SSID and password
-
-
-
-## Creating the Exploit Payload
+## Creating and Running the Exploit Payload
 
 Follow the instructions given below to create your own payload:
 
@@ -84,7 +70,7 @@ Follow the instructions given below to create your own payload:
 
 ![The Wifi Duck Network](./_images/wifiduck_network.png)
 
-3. Open a browser and go to wifi.duck<br />
+3. Open a browser and go to wifi.duck or 192.168.4.1<br />
 
 > By default, the user name and pwassword is wifiduck. Once connected, you should go to Settings and change the password so nobody in your vicinity can get into your network.
 
